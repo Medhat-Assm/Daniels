@@ -1,0 +1,27 @@
+@media screen and (min-width: 768px) {
+  /* Navbar */
+  nav .collapse {
+    background-color: transparent !important;
+  }
+
+  nav .collapse .nav-link {
+    /* color: white !important; */
+  }
+
+  /* Header */
+
+  header .overlay h1 {
+    font-size: 44px;
+  }
+
+  /* About */
+  #about .image-container img {
+    width: 75% !important;
+  }
+}
+
+@media screen and (min-width: 1169px) {
+  header .overlay h1 {
+    font-size: 60px;
+  }
+}
